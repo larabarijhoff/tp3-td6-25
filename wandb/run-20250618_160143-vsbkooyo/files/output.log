@@ -1,0 +1,40 @@
+torch.Size([1, 110250]) 22050
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 6
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Forma de los datos: torch.Size([32, 1, 110250])
+Etiquetas: tensor([1, 4, 3, 6, 7, 1, 6, 4, 2, 2, 7, 2, 9, 6, 6, 3, 9, 7, 7, 1, 5, 9, 3, 9,
+        6, 7, 2, 1, 4, 9, 2, 9])
+MLP(
+  (fc1): Linear(in_features=110250, out_features=64, bias=True)
+  (fc2): Linear(in_features=64, out_features=64, bias=True)
+  (fc3): Linear(in_features=64, out_features=10, bias=True)
+)
+Number of parameters: 7060874
+Epoch: [1/10], Train loss: 0.0000
+Epoch: [1/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Saving the best model at 0 epochs!
+Epoch: [2/10], Train loss: 0.0000
+Epoch: [2/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [3/10], Train loss: 0.0000
+Epoch: [3/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [4/10], Train loss: 0.0000
+Epoch: [4/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [5/10], Train loss: 0.0000
+Epoch: [5/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [6/10], Train loss: 0.0000
+Epoch: [6/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [7/10], Train loss: 0.0000
+Epoch: [7/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [8/10], Train loss: 0.0000
+Epoch: [8/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [9/10], Train loss: 0.0000
+Epoch: [9/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [10/10], Train loss: 0.0000
+Epoch: [10/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+loaded!
+Epoch: [10/10], Valid loss: 0.0000, Valid accuracy: 0.1212
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 2

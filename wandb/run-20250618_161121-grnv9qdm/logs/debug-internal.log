@@ -1,0 +1,61 @@
+{"time":"2025-06-18T16:11:21.5980175-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\laras\\Documents\\UTDT\\1ER_2025\\TD6\\TP3\\repo\\wandb\\run-20250618_161121-grnv9qdm\\logs\\debug-core.log"}
+{"time":"2025-06-18T16:11:21.9960785-03:00","level":"INFO","msg":"stream: created new stream","id":"grnv9qdm"}
+{"time":"2025-06-18T16:11:21.9966141-03:00","level":"INFO","msg":"handler: started","stream_id":"grnv9qdm"}
+{"time":"2025-06-18T16:11:21.9966141-03:00","level":"INFO","msg":"stream: started","id":"grnv9qdm"}
+{"time":"2025-06-18T16:11:21.9966141-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"grnv9qdm"}
+{"time":"2025-06-18T16:11:21.9966141-03:00","level":"INFO","msg":"sender: started","stream_id":"grnv9qdm"}
+{"time":"2025-06-18T16:11:22.3769383-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-18T16:11:22.8568514-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:23.4771572-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:23.5013731-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:23.5075004-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:23.5342322-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:23.5524655-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:23.5790318-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:23.5871497-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:23.6121541-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:23.6169391-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:23.6474083-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.2477283-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.2910212-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.5824461-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.5990168-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.6118628-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.6309743-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.6342028-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.6605568-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.6708902-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.6978599-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.7980692-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.8170827-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.8192993-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.8461311-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.9437535-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:24.9680827-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:11:24.9717472-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:11:25.0033177-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:15:28.3055262-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:15:28.3207502-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:15:28.3222603-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:15:28.3416557-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:15:28.6583573-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:15:28.6853872-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:15:28.6906247-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:15:28.710445-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:15:28.7189701-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:15:28.7434475-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:15:28.7498173-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:19:00.5918315-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:19:00.6005629-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:19:42.0633319-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:19:42.0697806-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:21:22.1348416-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:21:22.1398678-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:21:29.0309994-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:21:29.0367024-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:21:38.0719884-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:21:38.0762272-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:23:35.699946-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-18T16:23:35.7096878-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-18T16:23:38.2185879-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/larabarijhoff-universidad-torcuato-di-tella/tp3-td6-25/grnv9qdm/file_stream"}
+{"time":"2025-06-18T16:23:38.2185879-03:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/larabarijhoff-universidad-torcuato-di-tella/tp3-td6-25/grnv9qdm/file_stream: {\"error\":\"run tp3-td6-25/grnv9qdm not found while streaming file\"}"}

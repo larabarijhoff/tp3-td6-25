@@ -1,0 +1,82 @@
+torch.Size([1, 110250]) 22050
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 6
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Forma de los datos: torch.Size([32, 1, 110250])
+Etiquetas: tensor([1, 4, 3, 6, 7, 1, 6, 4, 2, 2, 7, 2, 9, 6, 6, 3, 9, 7, 7, 1, 5, 9, 3, 9,
+        6, 7, 2, 1, 4, 9, 2, 9])
+MLP(
+  (fc1): Linear(in_features=110250, out_features=64, bias=True)
+  (fc2): Linear(in_features=64, out_features=64, bias=True)
+  (fc3): Linear(in_features=64, out_features=10, bias=True)
+)
+Number of parameters: 7060874
+Epoch: [1/10], Train loss: 0.0000
+Epoch: [1/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Saving the best model at 0 epochs!
+Epoch: [2/10], Train loss: 0.0000
+Epoch: [2/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [3/10], Train loss: 0.0000
+Epoch: [3/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [4/10], Train loss: 0.0000
+Epoch: [4/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [5/10], Train loss: 0.0000
+Epoch: [5/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [6/10], Train loss: 0.0000
+Epoch: [6/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [7/10], Train loss: 0.0000
+Epoch: [7/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [8/10], Train loss: 0.0000
+Epoch: [8/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [9/10], Train loss: 0.0000
+Epoch: [9/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+Epoch: [10/10], Train loss: 0.0000
+Epoch: [10/10], Valid loss: 0.0000, Valid accuracy: 0.1010
+loaded!
+Epoch: [10/10], Valid loss: 0.0000, Valid accuracy: 0.1212
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 2
+Requirement already satisfied: torchaudio in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (2.7.1)
+Requirement already satisfied: torch==2.7.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torchaudio) (2.7.1)
+Requirement already satisfied: filelock in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (4.14.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (1.14.0)
+Requirement already satisfied: networkx in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (3.3)
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: jinja2 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (3.1.3)
+
+Requirement already satisfied: fsspec in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (2025.5.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from sympy>=1.13.3->torch==2.7.1->torchaudio) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from jinja2->torch==2.7.1->torchaudio) (2.1.5)
+Requirement already satisfied: pydub in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (0.25.1)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: soundfile in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (0.13.1)
+Requirement already satisfied: cffi>=1.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from soundfile) (1.17.1)
+Requirement already satisfied: numpy in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from soundfile) (1.24.4)
+Requirement already satisfied: pycparser in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from cffi>=1.0->soundfile) (2.22)Note: you may need to restart the kernel to use updated packages.
+
+Requirement already satisfied: wandb in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (0.20.1)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (8.2.1)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (3.1.44)
+Requirement already satisfied: packaging in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (23.2)
+Requirement already satisfied: platformdirs in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (4.2.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<7,>=3.19.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (6.31.1)
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: psutil>=5.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (5.9.8)
+
+Requirement already satisfied: pydantic<3 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (2.11.7)
+Requirement already satisfied: pyyaml in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (2.31.0)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (2.30.0)
+Requirement already satisfied: setproctitle in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (1.3.6)
+Requirement already satisfied: typing-extensions<5,>=4.8 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (4.14.0)
+Requirement already satisfied: colorama in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.12)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from pydantic<3->wandb) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.2 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from pydantic<3->wandb) (2.33.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from pydantic<3->wandb) (0.4.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.2)
