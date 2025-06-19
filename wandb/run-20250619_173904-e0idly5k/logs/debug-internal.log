@@ -1,0 +1,2 @@
+{"time":"2025-06-19T17:39:07.0960803-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\laras\\Documents\\UTDT\\1ER_2025\\TD6\\TP3\\repo\\wandb\\run-20250619_173904-e0idly5k\\logs\\debug-core.log"}
+{"time":"2025-06-19T17:39:37.5285422-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}

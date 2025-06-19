@@ -1,0 +1,18 @@
+{"time":"2025-06-19T18:18:30.245039-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\laras\\Documents\\UTDT\\1ER_2025\\TD6\\TP3\\repo\\wandb\\run-20250619_181829-fw9453uw\\logs\\debug-core.log"}
+{"time":"2025-06-19T18:18:30.6312662-03:00","level":"INFO","msg":"stream: created new stream","id":"fw9453uw"}
+{"time":"2025-06-19T18:18:30.6312662-03:00","level":"INFO","msg":"stream: started","id":"fw9453uw"}
+{"time":"2025-06-19T18:18:30.6312662-03:00","level":"INFO","msg":"handler: started","stream_id":"fw9453uw"}
+{"time":"2025-06-19T18:18:30.6312662-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"fw9453uw"}
+{"time":"2025-06-19T18:18:30.6312662-03:00","level":"INFO","msg":"sender: started","stream_id":"fw9453uw"}
+{"time":"2025-06-19T18:18:31.0865299-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T18:18:31.7291803-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-19T18:18:31.7776979-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-19T18:18:31.7970788-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-19T18:18:31.8046031-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-19T18:18:31.8331366-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-19T18:18:31.8828288-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-19T18:18:31.9159677-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-19T18:18:31.9273147-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-19T18:18:31.9480229-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-19T18:18:31.9541123-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-19T18:18:31.9784321-03:00","level":"INFO","msg":"Pausing system monitor"}

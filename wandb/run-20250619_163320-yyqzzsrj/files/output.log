@@ -1,0 +1,171 @@
+torch.Size([1, 110250]) 22050
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 3
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Forma de los datos: torch.Size([128, 1, 110250])
+Etiquetas: tensor([9, 1, 6, 3, 0, 9, 3, 1, 7, 7, 0, 7, 2, 3, 3, 6, 2, 0, 0, 9, 5, 2, 6, 2,
+        3, 0, 7, 9, 1, 2, 7, 2, 0, 4, 4, 4, 6, 1, 7, 6, 4, 0, 7, 2, 8, 4, 5, 0,
+        1, 2, 9, 8, 6, 6, 2, 9, 3, 6, 7, 4, 1, 8, 3, 2, 1, 0, 0, 8, 9, 7, 4, 9,
+        0, 1, 9, 4, 9, 1, 0, 4, 8, 8, 7, 2, 7, 2, 4, 8, 5, 0, 2, 5, 9, 8, 7, 9,
+        0, 8, 2, 2, 3, 4, 9, 1, 1, 1, 9, 8, 4, 0, 1, 2, 1, 9, 5, 6, 9, 9, 6, 4,
+        4, 7, 6, 8, 8, 8, 2, 7])
+MLP(
+  (fc1): Linear(in_features=110250, out_features=2048, bias=True)
+  (fc2): Linear(in_features=2048, out_features=1024, bias=True)
+  (fc3): Linear(in_features=1024, out_features=10, bias=True)
+  (dropout): Dropout(p=0.8, inplace=False)
+)
+Number of parameters: 227902474
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+Epoch: [1/50], Train loss: 2.4039
+Epoch: [1/50], Valid loss: 2.2980, Valid accuracy: 0.1212
+Epoch: [2/50], Train loss: 1.6828
+Epoch: [2/50], Valid loss: 2.4322, Valid accuracy: 0.1010
+Epoch: [3/50], Train loss: 1.1950
+Epoch: [3/50], Valid loss: 2.7142, Valid accuracy: 0.1010
+Epoch: [4/50], Train loss: 0.8857
+Epoch: [4/50], Valid loss: 3.1154, Valid accuracy: 0.0909
+Epoch: [5/50], Train loss: 0.6019
+Epoch: [5/50], Valid loss: 3.5584, Valid accuracy: 0.1111
+Epoch: [6/50], Train loss: 0.5148
+Epoch: [6/50], Valid loss: 3.9700, Valid accuracy: 0.1111
+Epoch: [7/50], Train loss: 0.4110
+Epoch: [7/50], Valid loss: 4.2742, Valid accuracy: 0.0909
+Epoch: [8/50], Train loss: 0.4144
+Epoch: [8/50], Valid loss: 4.6374, Valid accuracy: 0.0808
+Epoch: [9/50], Train loss: 0.3670
+Epoch: [9/50], Valid loss: 4.9717, Valid accuracy: 0.0808
+Epoch: [10/50], Train loss: 0.2708
+Epoch: [10/50], Valid loss: 5.3905, Valid accuracy: 0.1010
+Epoch: [11/50], Train loss: 0.3486
+Epoch: [11/50], Valid loss: 5.8108, Valid accuracy: 0.1111
+Epoch: [12/50], Train loss: 0.1992
+Epoch: [12/50], Valid loss: 6.1256, Valid accuracy: 0.1212
+Epoch: [13/50], Train loss: 0.1800
+Epoch: [13/50], Valid loss: 6.3343, Valid accuracy: 0.1010
+Epoch: [14/50], Train loss: 0.1303
+Epoch: [14/50], Valid loss: 6.5708, Valid accuracy: 0.0909
+Epoch: [15/50], Train loss: 0.1180
+Epoch: [15/50], Valid loss: 6.7714, Valid accuracy: 0.1010
+Epoch: [16/50], Train loss: 0.1148
+Epoch: [16/50], Valid loss: 6.9350, Valid accuracy: 0.1010
+Epoch: [17/50], Train loss: 0.1311
+Epoch: [17/50], Valid loss: 7.0283, Valid accuracy: 0.0909
+Epoch: [18/50], Train loss: 0.1635
+Epoch: [18/50], Valid loss: 7.2506, Valid accuracy: 0.0909
+Epoch: [19/50], Train loss: 0.1241
+Epoch: [19/50], Valid loss: 7.4499, Valid accuracy: 0.0808
+Epoch: [20/50], Train loss: 0.0722
+Epoch: [20/50], Valid loss: 7.6013, Valid accuracy: 0.0707
+Epoch: [21/50], Train loss: 0.0813
+Epoch: [21/50], Valid loss: 7.8049, Valid accuracy: 0.0707
+Epoch: [22/50], Train loss: 0.0727
+Epoch: [22/50], Valid loss: 8.0184, Valid accuracy: 0.0707
+Epoch: [23/50], Train loss: 0.1051
+Epoch: [23/50], Valid loss: 8.2871, Valid accuracy: 0.0707
+Epoch: [24/50], Train loss: 0.0863
+Epoch: [24/50], Valid loss: 8.5467, Valid accuracy: 0.0808
+Epoch: [25/50], Train loss: 0.1262
+Epoch: [25/50], Valid loss: 8.7333, Valid accuracy: 0.0808
+Epoch: [26/50], Train loss: 0.0750
+Epoch: [26/50], Valid loss: 9.0302, Valid accuracy: 0.0909
+Epoch: [27/50], Train loss: 0.0825
+Epoch: [27/50], Valid loss: 9.3252, Valid accuracy: 0.0909
+Epoch: [28/50], Train loss: 0.0709
+Epoch: [28/50], Valid loss: 9.5210, Valid accuracy: 0.0909
+Epoch: [29/50], Train loss: 0.1290
+Epoch: [29/50], Valid loss: 9.6424, Valid accuracy: 0.0909
+Epoch: [30/50], Train loss: 0.1085
+Epoch: [30/50], Valid loss: 9.8373, Valid accuracy: 0.1111
+Epoch: [31/50], Train loss: 0.0827
+Epoch: [31/50], Valid loss: 10.1143, Valid accuracy: 0.1111
+Epoch: [32/50], Train loss: 0.0696
+Epoch: [32/50], Valid loss: 10.4778, Valid accuracy: 0.1212
+Epoch: [33/50], Train loss: 0.2224
+Epoch: [33/50], Valid loss: 10.6933, Valid accuracy: 0.1212
+Epoch: [34/50], Train loss: 0.0741
+Epoch: [34/50], Valid loss: 10.7454, Valid accuracy: 0.1313
+Epoch: [35/50], Train loss: 0.0385
+Epoch: [35/50], Valid loss: 10.8864, Valid accuracy: 0.1515
+Epoch: [36/50], Train loss: 0.0519
+Epoch: [36/50], Valid loss: 11.1029, Valid accuracy: 0.1414
+Epoch: [37/50], Train loss: 0.0998
+Epoch: [37/50], Valid loss: 11.2780, Valid accuracy: 0.1313
+Epoch: [38/50], Train loss: 0.0697
+Epoch: [38/50], Valid loss: 11.3849, Valid accuracy: 0.1313
+Epoch: [39/50], Train loss: 0.0823
+Epoch: [39/50], Valid loss: 11.8891, Valid accuracy: 0.1313
+Epoch: [40/50], Train loss: 0.0590
+Epoch: [40/50], Valid loss: 12.4047, Valid accuracy: 0.1212
+Epoch: [41/50], Train loss: 0.0593
+Epoch: [41/50], Valid loss: 12.7022, Valid accuracy: 0.1212
+Epoch: [42/50], Train loss: 0.1061
+Epoch: [42/50], Valid loss: 12.8287, Valid accuracy: 0.1313
+Epoch: [43/50], Train loss: 0.1068
+Epoch: [43/50], Valid loss: 12.9763, Valid accuracy: 0.1212
+Epoch: [44/50], Train loss: 0.0705
+Epoch: [44/50], Valid loss: 13.1612, Valid accuracy: 0.0808
+Epoch: [45/50], Train loss: 0.1442
+Epoch: [45/50], Valid loss: 13.3017, Valid accuracy: 0.1111
+Epoch: [46/50], Train loss: 0.0403
+Epoch: [46/50], Valid loss: 13.5691, Valid accuracy: 0.1212
+Epoch: [47/50], Train loss: 0.1007
+Epoch: [47/50], Valid loss: 13.9630, Valid accuracy: 0.1212
+Epoch: [48/50], Train loss: 0.1411
+Epoch: [48/50], Valid loss: 14.3697, Valid accuracy: 0.1313
+Epoch: [49/50], Train loss: 0.0994
+Epoch: [49/50], Valid loss: 14.8138, Valid accuracy: 0.1414
+Epoch: [50/50], Train loss: 0.0653
+Epoch: [50/50], Valid loss: 15.1084, Valid accuracy: 0.1414
+loaded!
+Epoch: [50/50], Test accuracy: 0.1818
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 7
+0.18181818181818182
+0.1414141414141414
+15.10837459564209
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: torchaudio in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (2.7.1)
+
+Requirement already satisfied: torch==2.7.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torchaudio) (2.7.1)
+Requirement already satisfied: filelock in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (4.14.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (1.14.0)
+Requirement already satisfied: networkx in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (3.3)
+Requirement already satisfied: jinja2 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (3.1.3)
+Requirement already satisfied: fsspec in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from torch==2.7.1->torchaudio) (2025.5.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from sympy>=1.13.3->torch==2.7.1->torchaudio) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from jinja2->torch==2.7.1->torchaudio) (2.1.5)
+Requirement already satisfied: pydub in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (0.25.1)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: soundfile in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (0.13.1)
+Requirement already satisfied: cffi>=1.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from soundfile) (1.17.1)
+Requirement already satisfied: numpy in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from soundfile) (1.24.4)
+Requirement already satisfied: pycparser in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from cffi>=1.0->soundfile) (2.22)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: wandb in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (0.20.1)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (8.2.1)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (3.1.44)
+Requirement already satisfied: packaging in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (23.2)
+Requirement already satisfied: platformdirs in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (4.2.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<7,>=3.19.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (6.31.1)
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: psutil>=5.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (5.9.8)
+
+Requirement already satisfied: pydantic<3 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (2.11.7)
+Requirement already satisfied: pyyaml in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (2.31.0)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (2.30.0)
+Requirement already satisfied: setproctitle in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (1.3.6)
+Requirement already satisfied: typing-extensions<5,>=4.8 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from wandb) (4.14.0)
+Requirement already satisfied: colorama in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.12)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from pydantic<3->wandb) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.2 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from pydantic<3->wandb) (2.33.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from pydantic<3->wandb) (0.4.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\laras\miniconda3\envs\metodos\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.2)

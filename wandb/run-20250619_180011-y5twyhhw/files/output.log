@@ -1,0 +1,129 @@
+torch.Size([1, 110250]) 22050
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 5
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Forma de los datos: torch.Size([128, 1, 110250])
+Etiquetas: tensor([0, 2, 3, 5, 9, 0, 5, 2, 6, 6, 9, 6, 1, 5, 5, 3, 1, 9, 9, 0, 4, 1, 3, 1,
+        5, 9, 6, 0, 2, 1, 6, 1, 9, 8, 8, 8, 3, 2, 6, 3, 8, 9, 6, 1, 7, 8, 4, 9,
+        2, 1, 0, 7, 3, 3, 1, 0, 5, 3, 6, 8, 2, 7, 5, 1, 2, 9, 9, 7, 0, 6, 8, 0,
+        9, 2, 0, 8, 0, 2, 9, 8, 7, 7, 6, 1, 6, 1, 8, 7, 4, 9, 1, 4, 0, 7, 6, 0,
+        9, 7, 1, 1, 5, 8, 0, 2, 2, 2, 0, 7, 8, 9, 2, 1, 2, 0, 4, 3, 0, 0, 3, 8,
+        8, 6, 3, 7, 7, 7, 1, 6])
+MLP(
+  (fc1): Linear(in_features=110250, out_features=2048, bias=True)
+  (fc2): Linear(in_features=2048, out_features=1024, bias=True)
+  (fc3): Linear(in_features=1024, out_features=10, bias=True)
+  (dropout): Dropout(p=0.8, inplace=False)
+)
+Number of parameters: 227902474
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+Epoch: [1/50], Train loss: 2.3387
+Epoch: [1/50], Valid loss: 2.2811, Valid accuracy: 0.1313
+Epoch: [2/50], Train loss: 1.6704
+Epoch: [2/50], Valid loss: 2.4267, Valid accuracy: 0.1010
+Epoch: [3/50], Train loss: 1.2330
+Epoch: [3/50], Valid loss: 2.6462, Valid accuracy: 0.0909
+Epoch: [4/50], Train loss: 0.8099
+Epoch: [4/50], Valid loss: 2.9562, Valid accuracy: 0.1414
+Epoch: [5/50], Train loss: 0.6073
+Epoch: [5/50], Valid loss: 3.3448, Valid accuracy: 0.1616
+Epoch: [6/50], Train loss: 0.5070
+Epoch: [6/50], Valid loss: 3.7476, Valid accuracy: 0.1313
+Epoch: [7/50], Train loss: 0.5099
+Epoch: [7/50], Valid loss: 4.2312, Valid accuracy: 0.1313
+Epoch: [8/50], Train loss: 0.2700
+Epoch: [8/50], Valid loss: 4.7217, Valid accuracy: 0.1313
+Epoch: [9/50], Train loss: 0.2616
+Epoch: [9/50], Valid loss: 5.1434, Valid accuracy: 0.1616
+Epoch: [10/50], Train loss: 0.2952
+Epoch: [10/50], Valid loss: 5.5526, Valid accuracy: 0.1717
+Epoch: [11/50], Train loss: 0.3069
+Epoch: [11/50], Valid loss: 5.9259, Valid accuracy: 0.1515
+Epoch: [12/50], Train loss: 0.1577
+Epoch: [12/50], Valid loss: 6.1768, Valid accuracy: 0.1414
+Epoch: [13/50], Train loss: 0.1176
+Epoch: [13/50], Valid loss: 6.3694, Valid accuracy: 0.1313
+Epoch: [14/50], Train loss: 0.1616
+Epoch: [14/50], Valid loss: 6.5560, Valid accuracy: 0.1111
+Epoch: [15/50], Train loss: 0.1640
+Epoch: [15/50], Valid loss: 6.7180, Valid accuracy: 0.1010
+Epoch: [16/50], Train loss: 0.1545
+Epoch: [16/50], Valid loss: 6.9449, Valid accuracy: 0.1010
+Epoch: [17/50], Train loss: 0.1752
+Epoch: [17/50], Valid loss: 7.0542, Valid accuracy: 0.1313
+Epoch: [18/50], Train loss: 0.1468
+Epoch: [18/50], Valid loss: 7.3556, Valid accuracy: 0.1414
+Epoch: [19/50], Train loss: 0.1154
+Epoch: [19/50], Valid loss: 7.6799, Valid accuracy: 0.1313
+Epoch: [20/50], Train loss: 0.0998
+Epoch: [20/50], Valid loss: 7.9148, Valid accuracy: 0.1616
+Epoch: [21/50], Train loss: 0.0859
+Epoch: [21/50], Valid loss: 8.1199, Valid accuracy: 0.1515
+Epoch: [22/50], Train loss: 0.1248
+Epoch: [22/50], Valid loss: 8.3332, Valid accuracy: 0.1414
+Epoch: [23/50], Train loss: 0.1494
+Epoch: [23/50], Valid loss: 8.6232, Valid accuracy: 0.1111
+Epoch: [24/50], Train loss: 0.0987
+Epoch: [24/50], Valid loss: 8.9460, Valid accuracy: 0.1111
+Epoch: [25/50], Train loss: 0.1319
+Epoch: [25/50], Valid loss: 9.2908, Valid accuracy: 0.1010
+Epoch: [26/50], Train loss: 0.0602
+Epoch: [26/50], Valid loss: 9.6529, Valid accuracy: 0.0909
+Epoch: [27/50], Train loss: 0.0387
+Epoch: [27/50], Valid loss: 9.9641, Valid accuracy: 0.0909
+Epoch: [28/50], Train loss: 0.1103
+Epoch: [28/50], Valid loss: 10.2142, Valid accuracy: 0.0909
+Epoch: [29/50], Train loss: 0.0886
+Epoch: [29/50], Valid loss: 10.4733, Valid accuracy: 0.0909
+Epoch: [30/50], Train loss: 0.1165
+Epoch: [30/50], Valid loss: 10.5693, Valid accuracy: 0.1313
+Epoch: [31/50], Train loss: 0.0502
+Epoch: [31/50], Valid loss: 10.8108, Valid accuracy: 0.1313
+Epoch: [32/50], Train loss: 0.1323
+Epoch: [32/50], Valid loss: 11.0695, Valid accuracy: 0.1515
+Epoch: [33/50], Train loss: 0.0782
+Epoch: [33/50], Valid loss: 11.3281, Valid accuracy: 0.1616
+Epoch: [34/50], Train loss: 0.1649
+Epoch: [34/50], Valid loss: 11.7059, Valid accuracy: 0.1414
+Epoch: [35/50], Train loss: 0.1336
+Epoch: [35/50], Valid loss: 12.1586, Valid accuracy: 0.1515
+Epoch: [36/50], Train loss: 0.1319
+Epoch: [36/50], Valid loss: 12.4796, Valid accuracy: 0.1313
+Epoch: [37/50], Train loss: 0.1838
+Epoch: [37/50], Valid loss: 13.0153, Valid accuracy: 0.1212
+Epoch: [38/50], Train loss: 0.1746
+Epoch: [38/50], Valid loss: 13.5552, Valid accuracy: 0.1111
+Epoch: [39/50], Train loss: 0.0623
+Epoch: [39/50], Valid loss: 14.1012, Valid accuracy: 0.1414
+Epoch: [40/50], Train loss: 0.1078
+Epoch: [40/50], Valid loss: 14.4704, Valid accuracy: 0.1313
+Epoch: [41/50], Train loss: 0.1065
+Epoch: [41/50], Valid loss: 14.7415, Valid accuracy: 0.1414
+Epoch: [42/50], Train loss: 0.1263
+Epoch: [42/50], Valid loss: 15.0450, Valid accuracy: 0.1414
+Epoch: [43/50], Train loss: 0.1985
+Epoch: [43/50], Valid loss: 15.4114, Valid accuracy: 0.1212
+Epoch: [44/50], Train loss: 0.1924
+Epoch: [44/50], Valid loss: 15.5129, Valid accuracy: 0.1414
+Epoch: [45/50], Train loss: 0.0283
+Epoch: [45/50], Valid loss: 15.5745, Valid accuracy: 0.1414
+Epoch: [46/50], Train loss: 0.0401
+Epoch: [46/50], Valid loss: 15.6299, Valid accuracy: 0.1313
+Epoch: [47/50], Train loss: 0.1107
+Epoch: [47/50], Valid loss: 15.8294, Valid accuracy: 0.1515
+Epoch: [48/50], Train loss: 0.0527
+Epoch: [48/50], Valid loss: 16.3905, Valid accuracy: 0.1515
+Epoch: [49/50], Train loss: 0.0914
+Epoch: [49/50], Valid loss: 16.6604, Valid accuracy: 0.1515
+Epoch: [50/50], Train loss: 0.0746
+Epoch: [50/50], Valid loss: 17.0600, Valid accuracy: 0.1616
+loaded!
+Epoch: [50/50], Test accuracy: 0.1717
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 6
+0.1717171717171717
+0.16161616161616163
+17.059968948364258
