@@ -1,0 +1,21 @@
+torch.Size([1, 110250]) 22050
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 2
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Forma de los datos: torch.Size([128, 1, 110250])
+Etiquetas: tensor([8, 1, 9, 2, 4, 8, 2, 1, 7, 7, 4, 7, 0, 2, 2, 9, 0, 4, 4, 8, 3, 0, 9, 0,
+        2, 4, 7, 8, 1, 0, 7, 0, 4, 6, 6, 6, 9, 1, 7, 9, 6, 4, 7, 0, 5, 6, 3, 4,
+        1, 0, 8, 5, 9, 9, 0, 8, 2, 9, 7, 6, 1, 5, 2, 0, 1, 4, 4, 5, 8, 7, 6, 8,
+        4, 1, 8, 6, 8, 1, 4, 6, 5, 5, 7, 0, 7, 0, 6, 5, 3, 4, 0, 3, 8, 5, 7, 8,
+        4, 5, 0, 0, 2, 6, 8, 1, 1, 1, 8, 5, 6, 4, 1, 0, 1, 8, 3, 9, 8, 8, 9, 6,
+        6, 7, 9, 5, 5, 5, 0, 7])
+CNN(
+  (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=441600, out_features=10, bias=True)
+)
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)

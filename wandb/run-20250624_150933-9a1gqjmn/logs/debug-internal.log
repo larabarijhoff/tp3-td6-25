@@ -1,0 +1,16 @@
+{"time":"2025-06-24T15:09:34.7691796-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\laras\\Documents\\UTDT\\1ER_2025\\TD6\\TP3\\repo\\wandb\\run-20250624_150933-9a1gqjmn\\logs\\debug-core.log"}
+{"time":"2025-06-24T15:09:35.109945-03:00","level":"INFO","msg":"stream: created new stream","id":"9a1gqjmn"}
+{"time":"2025-06-24T15:09:35.109945-03:00","level":"INFO","msg":"stream: started","id":"9a1gqjmn"}
+{"time":"2025-06-24T15:09:35.109945-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"9a1gqjmn"}
+{"time":"2025-06-24T15:09:35.109945-03:00","level":"INFO","msg":"sender: started","stream_id":"9a1gqjmn"}
+{"time":"2025-06-24T15:09:35.109945-03:00","level":"INFO","msg":"handler: started","stream_id":"9a1gqjmn"}
+{"time":"2025-06-24T15:09:35.3621268-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T15:18:33.562852-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T15:18:33.5649531-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T15:18:34.4489156-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T15:18:34.5732981-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 49-49, summary, console lines 126-129","runtime_seconds":0.1238392}],"total_operations":1}}
+{"time":"2025-06-24T15:18:35.0155362-03:00","level":"INFO","msg":"stream: closing","id":"9a1gqjmn"}
+{"time":"2025-06-24T15:18:35.016043-03:00","level":"INFO","msg":"handler: closed","stream_id":"9a1gqjmn"}
+{"time":"2025-06-24T15:18:35.016043-03:00","level":"INFO","msg":"sender: closed","stream_id":"9a1gqjmn"}
+{"time":"2025-06-24T15:18:35.016043-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9a1gqjmn"}
+{"time":"2025-06-24T15:18:35.0165672-03:00","level":"INFO","msg":"stream: closed","id":"9a1gqjmn"}
