@@ -1,0 +1,33 @@
+torch.Size([1, 110250]) 22050
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 7
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+c:\Users\laras\miniconda3\envs\metodos\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Forma de los datos: torch.Size([128, 1, 110250])
+Etiquetas: tensor([3, 1, 8, 7, 2, 3, 7, 1, 9, 9, 2, 9, 5, 7, 7, 8, 5, 2, 2, 3, 6, 5, 8, 5,
+        7, 2, 9, 3, 1, 5, 9, 5, 2, 0, 0, 0, 8, 1, 9, 8, 0, 2, 9, 5, 4, 0, 6, 2,
+        1, 5, 3, 4, 8, 8, 5, 3, 7, 8, 9, 0, 1, 4, 7, 5, 1, 2, 2, 4, 3, 9, 0, 3,
+        2, 1, 3, 0, 3, 1, 2, 0, 4, 4, 9, 5, 9, 5, 0, 4, 6, 2, 5, 6, 3, 4, 9, 3,
+        2, 4, 5, 5, 7, 0, 3, 1, 1, 1, 3, 4, 0, 2, 1, 5, 1, 3, 6, 8, 3, 3, 8, 0,
+        0, 9, 8, 4, 4, 4, 5, 9])
+CNN(
+  (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=441600, out_features=10, bias=True)
+)
+Epoch: [1/50], Train loss: 326.7947
+Epoch: [1/50], Valid loss: 122.4886, Valid accuracy: 0.1818
+Epoch: [2/50], Train loss: 88.3300
+Epoch: [2/50], Valid loss: 73.7120, Valid accuracy: 0.2121
+Epoch: [3/50], Train loss: 32.7961
+Epoch: [3/50], Valid loss: 80.2458, Valid accuracy: 0.2222
+Epoch: [4/50], Train loss: 16.8173
+Epoch: [4/50], Valid loss: 61.8655, Valid accuracy: 0.3232
+Epoch: [5/50], Train loss: 6.5043
+Epoch: [5/50], Valid loss: 58.8066, Valid accuracy: 0.2626
+Epoch: [6/50], Train loss: 4.2228
+Epoch: [6/50], Valid loss: 44.6351, Valid accuracy: 0.2929
+Epoch: [7/50], Train loss: 2.0872
+Epoch: [7/50], Valid loss: 45.4073, Valid accuracy: 0.3232

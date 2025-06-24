@@ -1,0 +1,5 @@
+2025-06-24 20:34:24,705 INFO    MainThread:64040 [wandb_init.py:setup_run_log_directory():703] Logging user logs to c:\Users\laras\Documents\UTDT\1ER_2025\TD6\TP3\repo\wandb\run-20250624_203424-vp8mpbro\logs\debug.log
+2025-06-24 20:34:24,705 INFO    MainThread:64040 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to c:\Users\laras\Documents\UTDT\1ER_2025\TD6\TP3\repo\wandb\run-20250624_203424-vp8mpbro\logs\debug-internal.log
+2025-06-24 20:34:24,705 INFO    MainThread:64040 [wandb_init.py:init():831] calling init triggers
+2025-06-24 20:34:24,706 INFO    MainThread:64040 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
